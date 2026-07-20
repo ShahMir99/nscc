@@ -4,7 +4,7 @@ import hero from "@/assets/hero-construction.jpg";
 import ceo from "@/assets/ceo.jpeg";
 import cco from "@/assets/cco.jpeg";
 import generalManager from "@/assets/generalManager.jpeg";
-import technicalManager from "@/assets/technicalManager.jpeg";
+import operationalManager from "@/assets/operationalManager.jpeg";
 import siteOne from "@/assets/project-1.jpg";
 import siteTwo from "@/assets/project-2.jpg";
 import siteThree from "@/assets/project-3.jpg";
@@ -46,9 +46,9 @@ const leaders = [
     },
   },
   {
-    image: technicalManager,
-    name: "Technical Manager",
-    role: "Technical Manager",
+    image: operationalManager,
+    name: "Operational Manager",
+    role: "Operational Manager",
     message:
       "Technical excellence and safety are the foundations of our success. Our certified engineers ensure every project is designed, executed, tested, and maintained in accordance with Saudi regulations, industry-leading engineering standards, and strict HSE requirements for long-term performance.",
     badge: {
