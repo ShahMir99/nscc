@@ -104,10 +104,13 @@ export default function Home() {
   return (
     <div className="font-sans">
       {/* Hero */}
-      <section className="relative isolate overflow-hidden">
+      <section className="relative isolate overflow-hidden min-h-[640px] lg:min-h-[760px]">
         <Image
           src={hero}
-            alt="Construction site at sunset in Egypt and Saudi Arabia"
+          alt="Construction site at sunset in Egypt and Saudi Arabia"
+          fill
+          priority
+          sizes="100vw"
           className="object-cover object-right"
         />
 
@@ -123,13 +126,13 @@ export default function Home() {
           }}
         />
 
-        <div className="relative mx-auto max-w-7xl px-6 py-28 lg:py-40">
+        <div className="relative mx-auto max-w-7xl px-6 py-28 lg:py-36">
           <div className="max-w-5xl">
             {/* Tagline */}
             <div className="flex items-center gap-4 text-xs font-semibold uppercase tracking-[0.3em] text-[#ff8a1d]">
               <span className="h-px w-12 bg-[#ff8a1d]" />
               <span>
-                Building Landmarks, Shaping Egypt and Saudi Arabia&apos;s Future
+                Building Landmarks, Shaping Saudi Arabia&apos;s Future
               </span>
             </div>
 
@@ -212,8 +215,8 @@ export default function Home() {
               One Project at a Time
             </h2>
             <p className="mt-6 text-muted-foreground">
-              N.S.C.C. is a licensed contracting company in Egypt and Saudi Arabia,
-              delivering safe, reliable, and fully compliant electrical,
+              N.S.C.C. is a licensed contracting company in Egypt and Saudi
+              Arabia, delivering safe, reliable, and fully compliant electrical,
               infrastructure, testing, commissioning, and maintenance solutions
               for commercial, industrial, and government sectors. Our services
               are executed by certified professionals in accordance with Saudi
@@ -323,8 +326,8 @@ export default function Home() {
               Why Choose NSCC?
             </span>
             <h2 className="mt-3 font-display text-4xl font-extrabold text-primary md:text-5xl">
-              Trusted by clients across Egypt and Saudi Arabia, we deliver projects with
-              quality, efficiency, and innovation.
+              Trusted by clients across Egypt and Saudi Arabia, we deliver
+              projects with quality, efficiency, and innovation.
             </h2>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -363,8 +366,8 @@ export default function Home() {
             </div>
             <p className="max-w-md text-sm text-primary-foreground/70">
               From residential communities to industrial facilities and
-              infrastructure, we deliver projects that drive Egypt and Saudi Arabia&apos;s
-              progress.
+              infrastructure, we deliver projects that drive Egypt and Saudi
+              Arabia&apos;s progress.
             </p>
           </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
