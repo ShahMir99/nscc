@@ -21,10 +21,9 @@ export default function ContactPage() {
         <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-5">
           <div className="space-y-6 lg:col-span-2">
             {[
-              { icon: MapPin, title: "Head Office", value: "Saudi Arabia, Madinah Munawwarah, King Khalid Road, Waqran District" },
+              { icon: MapPin, title: "Head Office", value: "Egypt and Saudi Arabia, Madinah Munawwarah, King Khalid Road, Waqran District" },
               { icon: Mail, title: "Email", value: "info@nscc-group.com" },
               { icon: Phone, title: "Phone", value: " (+966) 54 108 44505" },
-              { icon: Phone, title: "Landline", value: "013 821 1753" },
             ].map((c) => (
               <div key={c.title} className="flex gap-4 rounded-2xl border border-border bg-card p-5">
                 <div className="grid h-12 w-12 shrink-0 place-items-center rounded-xl" style={{ background: "var(--gradient-accent)" }}>

@@ -17,7 +17,7 @@ const leaders = [
     name: "Chief Executive Officer",
     role: "Chief Executive Officer (CEO)",
     message:
-      "At N.S.C.C., we are driven by a clear vision to deliver world-class contracting solutions that contribute to Saudi Arabia's development while upholding the highest standards of safety, quality, and integrity. As the Kingdom advances toward Vision 2030, we remain committed to supporting this transformation through reliable infrastructure, sustainable solutions, and long-term partnerships built on trust and performance.",
+      "At N.S.C.C., we are driven by a clear vision to deliver world-class contracting solutions that contribute to Egypt and Saudi Arabia's development while upholding the highest standards of safety, quality, and integrity. As the Kingdom advances toward Vision 2030, we remain committed to supporting this transformation through reliable infrastructure, sustainable solutions, and long-term partnerships built on trust and performance.",
     badge: {
       value: "Vision 2030",
       label: "Leading with Vision",
@@ -28,7 +28,7 @@ const leaders = [
     name: "Corporate Overview",
     role: "Chief Commercial Officer (CCO)",
     message:
-      "N.S.C.C. provides comprehensive electrical and infrastructure solutions for commercial, industrial, and government projects across Saudi Arabia. Backed by certified professionals, we deliver safe, efficient, and fully compliant services while maintaining the highest standards of quality, reliability, and client satisfaction.",
+      "N.S.C.C. provides comprehensive electrical and infrastructure solutions for commercial, industrial, and government projects across Egypt and Saudi Arabia. Backed by certified professionals, we deliver safe, efficient, and fully compliant services while maintaining the highest standards of quality, reliability, and client satisfaction.",
     badge: {
       value: "Licensed",
       label: "Saudi Contractor",
@@ -99,7 +99,7 @@ export default function AboutPage() {
             <p className="mt-5 text-muted-foreground">
               We bring together engineering excellence and construction
               expertise to deliver projects that meet the highest standards of
-              quality and safety in Saudi Arabia. Our mission is to provide
+              quality and safety in Egypt and Saudi Arabia. Our mission is to provide
               innovative, sustainable, and cost-effective solutions that support
               the Kingdom&apos;s rapid growth and Vision 2030 goals.
             </p>
@@ -231,7 +231,7 @@ export default function AboutPage() {
             {
               icon: Target,
               title: "Our Mission",
-              desc: "Deliver innovative, sustainable construction that shapes Saudi Arabia's future.",
+              desc: "Deliver innovative, sustainable construction that shapes Egypt and Saudi Arabia's future.",
             },
             {
               icon: Eye,

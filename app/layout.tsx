@@ -16,12 +16,12 @@ const inter = Inter({
   variable: "--font-sans",
 });
 export const metadata: Metadata = {
-  title: "NSCC — Leading General Contracting Company in Saudi Arabia",
+  title: "NSCC — Leading General Contracting Company in Egypt and Saudi Arabia",
   description:
-    "From iconic commercial buildings to turnkey residential developments, NSCC delivers construction, MEP and engineering excellence across Saudi Arabia.",
+    "From iconic commercial buildings to turnkey residential developments, NSCC delivers construction, MEP and engineering excellence across Egypt and Saudi Arabia.",
   openGraph: {
-    title: "NSCC — General Contracting in Saudi Arabia",
-    description: "Building landmarks, shaping Saudi Arabia's future.",
+    title: "NSCC — General Contracting in Egypt and Saudi Arabia",
+    description: "Building landmarks, shaping Egypt and Saudi Arabia's future.",
   },
 };
 

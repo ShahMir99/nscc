@@ -13,7 +13,7 @@
 //     name: "Full Name",
 //     role: "Chief Executive Officer",
 //     message:
-//       "\"Every project we take on carries the weight of trust — from our clients, our partners, and the communities we build for. As Saudi Arabia accelerates toward Vision 2030, our responsibility is to match that ambition with engineering discipline, safety, and craftsmanship that lasts for generations.\"",
+//       "\"Every project we take on carries the weight of trust — from our clients, our partners, and the communities we build for. As Egypt and Saudi Arabia accelerate toward Vision 2030, our responsibility is to match that ambition with engineering discipline, safety, and craftsmanship that lasts for generations.\"",
 //     badge: { value: "15+", label: "Years Leading" },
 //   },
 //   {

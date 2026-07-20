@@ -13,7 +13,7 @@ export function Footer() {
           </div>
           <h4 className="mt-6 text-sm font-semibold uppercase tracking-widest text-accent">Stay Tuned With Us</h4>
           <p className="mt-3 text-sm text-primary-foreground/70">
-            At NSCC (National Service & Contracting Company), we bring your architectural dreams to life. A leading general contracting company in Saudi Arabia.
+            At NSCC (National Service & Contracting Company), we bring your architectural dreams to life. A leading general contracting company in Egypt and Saudi Arabia.
           </p>
         </div>
         <div>
@@ -40,7 +40,7 @@ export function Footer() {
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-widest text-accent">Head Office</h4>
           <ul className="mt-4 space-y-3 text-sm text-primary-foreground/80">
-            <li className="flex gap-2"><MapPin className="h-4 w-4 shrink-0 text-accent" />Saudi Arabia, Madinah Munawwarah, King Khalid Road, Waqran District</li>
+            <li className="flex gap-2"><MapPin className="h-4 w-4 shrink-0 text-accent" />Egypt and Saudi Arabia, Madinah Munawwarah, King Khalid Road, Waqran District</li>
             <li className="flex gap-2"><Mail className="h-4 w-4 shrink-0 text-accent" /> info@nscc-group.com</li>
             <li className="flex gap-2"><Phone className="h-4 w-4 shrink-0 text-accent" /> (+966) 54 108 4450</li>
             <li className="flex gap-2"><Phone className="h-4 w-4 shrink-0 text-accent" /> 013 821 1753</li>

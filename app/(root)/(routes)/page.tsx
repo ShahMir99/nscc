@@ -43,7 +43,7 @@ const services = [
   {
     title: "Overhead Line Works",
     img: sResidential,
-    desc: "Construction, maintenance, rehabilitation, and emergency restoration of overhead electrical distribution networks across Saudi Arabia.",
+    desc: "Construction, maintenance, rehabilitation, and emergency restoration of overhead electrical distribution networks across Egypt and Saudi Arabia.",
   },
   {
     title: "Testing & Commissioning",
@@ -83,7 +83,7 @@ const why = [
   {
     icon: Leaf,
     title: "Vision 2030 Alignment",
-    desc: "Sustainable, future-ready solutions supporting Saudi Arabia's transformation.",
+    desc: "Sustainable, future-ready solutions supporting Egypt and Saudi Arabia's transformation.",
   },
   {
     icon: Users,
@@ -107,9 +107,7 @@ export default function Home() {
       <section className="relative isolate overflow-hidden">
         <Image
           src={hero}
-          alt="Construction site at sunset in Saudi Arabia"
-          fill
-          priority
+            alt="Construction site at sunset in Egypt and Saudi Arabia"
           className="object-cover object-right"
         />
 
@@ -130,7 +128,9 @@ export default function Home() {
             {/* Tagline */}
             <div className="flex items-center gap-4 text-xs font-semibold uppercase tracking-[0.3em] text-[#ff8a1d]">
               <span className="h-px w-12 bg-[#ff8a1d]" />
-              <span>Building Landmarks, Shaping Saudi Arabia&apos;s Future</span>
+              <span>
+                Building Landmarks, Shaping Egypt and Saudi Arabia&apos;s Future
+              </span>
             </div>
 
             {/* Heading */}
@@ -139,15 +139,19 @@ export default function Home() {
               <span className="inline-block px-2 bg-[#ff8a1d] text-white">
                 Contracting
               </span>{" "}
-              Company In Saudi Arabia
+              Company In Egypt and Saudi Arabia
             </h1>
 
             {/* Description */}
             <p className="mt-8 max-w-3xl text-lg leading-8 text-white/90">
-              At NSCC (National Service & Contracting Company), we bring your
-              architectural dreams to life. From iconic commercial buildings to
-              turnkey residential developments, we combine innovation with
-              craftsmanship to exceed expectations on every project.
+              At NSCC (National Service & Contracting Company), we deliver
+              reliable electrical and construction solutions for residential,
+              commercial, and industrial projects. From complete electrical
+              installations and power distribution systems to large-scale
+              construction and infrastructure development, we combine technical
+              expertise, innovation, and quality craftsmanship to ensure every
+              project is completed safely, efficiently, and to the highest
+              standards.
             </p>
 
             {/* Buttons */}
@@ -208,7 +212,7 @@ export default function Home() {
               One Project at a Time
             </h2>
             <p className="mt-6 text-muted-foreground">
-              N.S.C.C. is a licensed contracting company in Saudi Arabia,
+              N.S.C.C. is a licensed contracting company in Egypt and Saudi Arabia,
               delivering safe, reliable, and fully compliant electrical,
               infrastructure, testing, commissioning, and maintenance solutions
               for commercial, industrial, and government sectors. Our services
@@ -319,7 +323,7 @@ export default function Home() {
               Why Choose NSCC?
             </span>
             <h2 className="mt-3 font-display text-4xl font-extrabold text-primary md:text-5xl">
-              Trusted by clients across Saudi Arabia, we deliver projects with
+              Trusted by clients across Egypt and Saudi Arabia, we deliver projects with
               quality, efficiency, and innovation.
             </h2>
           </div>
@@ -359,7 +363,7 @@ export default function Home() {
             </div>
             <p className="max-w-md text-sm text-primary-foreground/70">
               From residential communities to industrial facilities and
-              infrastructure, we deliver projects that drive Saudi Arabia&apos;s
+              infrastructure, we deliver projects that drive Egypt and Saudi Arabia&apos;s
               progress.
             </p>
           </div>

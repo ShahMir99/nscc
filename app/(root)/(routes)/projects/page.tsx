@@ -24,7 +24,7 @@ export default function ProjectsPage() {
           <span className="text-xs font-semibold uppercase tracking-[0.25em] text-accent">Our Landmark Projects</span>
           <h1 className="mt-4 max-w-3xl font-display text-5xl font-extrabold md:text-6xl">Shaping the Future, One Project at a Time</h1>
           <p className="mt-5 max-w-2xl text-primary-foreground/80">
-            From residential communities to industrial facilities and infrastructure — projects that drive Saudi Arabia&apos;s progress.
+            From residential communities to industrial facilities and infrastructure — projects that drive Egypt and Saudi Arabia&apos;s progress.
           </p>
         </div>
       </section>

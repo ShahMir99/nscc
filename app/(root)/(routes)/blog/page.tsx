@@ -10,8 +10,8 @@ import Image from "next/image";
 
 const posts = [
   { title: "Construction Finishing Works in Khobar: Premium Quality, Flawless Handover", img: sFinishing, excerpt: "Finishing is the stage where a building earns its reputation. Floors, ceilings, walls, and joinery define the user experience." },
-  { title: "Pre-Engineered Steel Buildings in Saudi Arabia: Faster, Stronger, Smarter", img: sInfra, excerpt: "Logistics hubs, manufacturing plants, and warehouses need to come online in months — not years." },
-  { title: "EPC Contractors in Saudi Arabia: Turnkey Delivery from Concept to Commissioning", img: sConstruction, excerpt: "The Engineering, Procurement, and Construction model removes friction between disparate vendors." },
+  { title: "Pre-Engineered Steel Buildings in Egypt and Saudi Arabia: Faster, Stronger, Smarter", img: sInfra, excerpt: "Logistics hubs, manufacturing plants, and warehouses need to come online in months — not years." },
+  { title: "EPC Contractors in Egypt and Saudi Arabia: Turnkey Delivery from Concept to Commissioning", img: sConstruction, excerpt: "The Engineering, Procurement, and Construction model removes friction between disparate vendors." },
   { title: "Residential Construction Companies in Riyadh: Build Your Home with Confidence", img: sResidential, excerpt: "Building a home in Riyadh is the largest investment most families will ever make." },
   { title: "HVAC Contractors in Riyadh: Expert Climate Control for Saudi Projects", img: sMep, excerpt: "Riyadh's climate is uncompromising — cooling loads drive a large share of a building's energy bill." },
   { title: "Infrastructure Construction Services: Roads, Utilities, and Urban Backbones", img: sCommercial, excerpt: "Every Vision 2030 city relies on an unseen backbone of infrastructure." },
