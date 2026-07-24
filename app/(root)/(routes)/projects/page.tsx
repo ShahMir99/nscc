@@ -1,19 +1,20 @@
-import p1 from "@/assets/project-1.jpg";
-import p2 from "@/assets/project-2.jpg";
-import p3 from "@/assets/project-3.jpg";
-import p4 from "@/assets/project-4.jpg";
+import p1 from "@/assets/project-1.png";
+import p2 from "@/assets/project-2.png";
+import p3 from "@/assets/project-3.png";
+import p4 from "@/assets/project-4.png";
+import p5 from "@/assets/project-5.png";
+
 import sCommercial from "@/assets/service-commercial.jpg";
 import sResidential from "@/assets/service-residential.jpg";
 import Image from "next/image";
 
 
 const projects = [
-  { title: "Sukoon Extended Care Center", location: "Jeddah", img: p2 },
-  { title: "Asdaf Al Khobar Project", location: "Al Khobar", img: p1 },
-  { title: "Al Qatif 25Q Project", location: "Al Qatif", img: sResidential },
-  { title: "Mazaen Al Ebel — Aramco Project", location: "Eastern Province", img: p3 },
-  { title: "Nesaj Town — Al Khobar", location: "Al Khobar", img: sCommercial },
-  { title: "NEOM Hotels — Tabuk", location: "Tabuk", img: p4 },
+  { title: "New Administrative Capital (NAC)", location: "Cairo, Egypt", img: p1 },
+  { title: "Cairo Metro Expansion", location: "Cairo, Egypt", img: p2 },
+  { title: "Benban Solar Park", location: "Aswan, Egypt", img: p3 },
+  { title: "Ain Sokhna Industrial Zone", location: "Suez Governorate, Egypt", img: p4 },
+  { title: "High-Speed Rail Project", location: "Egypt", img: p5 },
 ];
 
 export default function ProjectsPage() {

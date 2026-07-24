@@ -8,16 +8,21 @@ import {
   Sparkles,
 } from "lucide-react";
 import hero from "@/assets/hero-construction.jpg";
-import sConstruction from "@/assets/service-construction.jpg";
-import sCommercial from "@/assets/service-commercial.jpg";
-import sResidential from "@/assets/service-residential.jpg";
+
+import EConstruction from "@/assets/electrical-contracting.png";
+import UNetwork from "@/assets/underground-network.png";
+import overheadLine from "@/assets/overhead-line.png";
+
 import sInfra from "@/assets/service-infrastructure.jpg";
 import sMep from "@/assets/service-mep.jpg";
 import sFinishing from "@/assets/service-finishing.jpg";
-import p1 from "@/assets/project-1.jpg";
-import p2 from "@/assets/project-2.jpg";
-import p3 from "@/assets/project-3.jpg";
-import p4 from "@/assets/project-4.jpg";
+
+import p1 from "@/assets/project-1.png";
+import p2 from "@/assets/project-2.png";
+import p3 from "@/assets/project-3.png";
+import p4 from "@/assets/project-4.png";
+// import p5 from "@/assets/project-5.png";
+
 import engineer from "@/assets/about-engineer.jpg";
 
 import gulfLogo from "@/assets/gulf-catering.png";
@@ -32,41 +37,42 @@ import Image from "next/image";
 const services = [
   {
     title: "Electrical Contracting",
-    img: sConstruction,
+    img: EConstruction,
     desc: "Comprehensive LV/MV installations, power distribution systems, transformers, switchgear, industrial electrical works, and street lighting solutions.",
   },
   {
     title: "Underground Network Solutions",
-    img: sCommercial,
+    img: UNetwork,
     desc: "Professional underground cable installation, trenching, cable laying, jointing, distribution network extensions, and fault rectification services.",
   },
   {
     title: "Overhead Line Works",
-    img: sResidential,
+    img: overheadLine,
     desc: "Construction, maintenance, rehabilitation, and emergency restoration of overhead electrical distribution networks across Egypt and Saudi Arabia.",
   },
-  {
-    title: "Testing & Commissioning",
-    img: sInfra,
-    desc: "VLF cable testing, transformer testing, protection relay testing, insulation resistance testing, and complete system commissioning.",
-  },
-  {
-    title: "Operation & Maintenance",
-    img: sMep,
-    desc: "Preventive and corrective maintenance, emergency breakdown support, electrical asset inspections, and annual maintenance contracts (AMC).",
-  },
-  {
-    title: "Infrastructure & Civil Works",
-    img: sFinishing,
-    desc: "Excavation, duct bank installation, manholes, utility corridors, road crossings, and complete site restoration for utility projects.",
-  },
+  // {
+  //   title: "Testing & Commissioning",
+  //   img: sInfra,
+  //   desc: "VLF cable testing, transformer testing, protection relay testing, insulation resistance testing, and complete system commissioning.",
+  // },
+  // {
+  //   title: "Operation & Maintenance",
+  //   img: sMep,
+  //   desc: "Preventive and corrective maintenance, emergency breakdown support, electrical asset inspections, and annual maintenance contracts (AMC).",
+  // },
+  // {
+  //   title: "Infrastructure & Civil Works",
+  //   img: sFinishing,
+  //   desc: "Excavation, duct bank installation, manholes, utility corridors, road crossings, and complete site restoration for utility projects.",
+  // },
 ];
 
 const projects = [
-  { title: "Sukoon Extended Care Center", img: p2 },
-  { title: "Asdaf Al Khobar Project", img: p1 },
-  { title: "Mazaen Al Ebel — Aramco Project", img: p3 },
-  { title: "NEOM Hotels — Tabuk Project", img: p4 },
+  { title: "New Administrative Capital (NAC)", location: "Cairo, Egypt", img: p1 },
+  { title: "Cairo Metro Expansion", location: "Cairo, Egypt", img: p2 },
+  { title: "Benban Solar Park", location: "Aswan, Egypt", img: p3 },
+  { title: "Ain Sokhna Industrial Zone", location: "Suez Governorate, Egypt", img: p4 },
+  // { title: "High-Speed Rail Project", location: "Egypt", img: p5 },
 ];
 
 const why = [
