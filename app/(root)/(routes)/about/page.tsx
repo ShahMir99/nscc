@@ -5,9 +5,11 @@ import ceo from "@/assets/ceo.jpeg";
 import cco from "@/assets/cco.jpeg";
 import generalManager from "@/assets/generalManager.jpeg";
 import operationalManager from "@/assets/operationalManager.jpeg";
-import siteOne from "@/assets/project-1.jpg";
-import siteTwo from "@/assets/project-2.jpg";
-import siteThree from "@/assets/project-3.jpg";
+
+import p1 from "@/assets/project-1.png";
+import p2 from "@/assets/project-2.png";
+import p3 from "@/assets/project-3.png";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -58,6 +60,16 @@ const leaders = [
   },
 ];
 
+const projects = [
+  {
+    title: "New Administrative Capital (NAC)",
+    location: "Cairo, Egypt",
+    img: p1,
+  },
+  { title: "Cairo Metro Expansion", location: "Cairo, Egypt", img: p2 },
+  { title: "Benban Solar Park", location: "Aswan, Egypt", img: p3 },
+];
+
 export default function AboutPage() {
   return (
     <div>
@@ -99,9 +111,9 @@ export default function AboutPage() {
             <p className="mt-5 text-muted-foreground">
               We bring together engineering excellence and construction
               expertise to deliver projects that meet the highest standards of
-              quality and safety in Egypt and Saudi Arabia. Our mission is to provide
-              innovative, sustainable, and cost-effective solutions that support
-              the Kingdom&apos;s rapid growth and Vision 2030 goals.
+              quality and safety in Egypt and Saudi Arabia. Our mission is to
+              provide innovative, sustainable, and cost-effective solutions that
+              support the Kingdom&apos;s rapid growth and Vision 2030 goals.
             </p>
             <ul className="mt-6 space-y-3">
               {[
@@ -130,45 +142,30 @@ export default function AboutPage() {
               Projects That Speak For Themselves
             </h2>
           </div>
-          <div className="mt-14 grid gap-6 md:grid-cols-3">
-            {[
-              {
-                src: siteOne,
-                title: "Commercial Towers",
-                desc: "High-rise construction across Riyadh.",
-              },
-              {
-                src: siteTwo,
-                title: "Infrastructure Works",
-                desc: "Roads, utilities, and civil engineering.",
-              },
-              {
-                src: siteThree,
-                title: "Industrial Facilities",
-                desc: "Plants and warehouses built to spec.",
-              },
-            ].map((item) => (
-              <div
-                key={item.title}
-                className="group relative overflow-hidden rounded-2xl shadow-[var(--shadow-elegant)]"
+          <div className="mx-auto grid max-w-7xl gap-6 px-6 sm:grid-cols-2 lg:grid-cols-3">
+            {projects.map((p) => (
+              <article
+                key={p.title}
+                className="group relative overflow-hidden rounded-2xl"
               >
                 <Image
-                  src={item.src}
-                  alt={item.title}
-                  width={600}
-                  height={750}
-                  className="h-[420px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  src={p.img}
+                  alt={p.title}
+                  width={800}
+                  height={600}
+                  loading="lazy"
+                  className="aspect-[4/5] h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/10 to-transparent" />
-                <div className="absolute bottom-0 left-0 p-6 text-primary-foreground">
-                  <h3 className="font-display text-xl font-bold">
-                    {item.title}
+                <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/30 to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 p-6 text-primary-foreground">
+                  <div className="text-xs font-semibold uppercase tracking-widest text-accent">
+                    {p.location}
+                  </div>
+                  <h3 className="mt-1 font-display text-xl font-bold">
+                    {p.title}
                   </h3>
-                  <p className="mt-1 text-sm text-primary-foreground/80">
-                    {item.desc}
-                  </p>
                 </div>
-              </div>
+              </article>
             ))}
           </div>
         </div>
@@ -186,7 +183,7 @@ export default function AboutPage() {
             </h2>
           </div>
 
-           <div className="mt-16 space-y-20">
+          <div className="mt-16 space-y-20">
             {leaders.map((leader, i) => (
               <div
                 key={leader.name + i}
@@ -208,15 +205,25 @@ export default function AboutPage() {
                     className="absolute -bottom-6 -right-6 hidden rounded-2xl px-6 py-4 text-accent-foreground md:block"
                     style={{ background: "var(--gradient-accent)" }}
                   >
-                    <p className="font-display text-2xl font-extrabold">{leader.badge.value}</p>
-                    <p className="text-xs uppercase tracking-wide">{leader.badge.label}</p>
+                    <p className="font-display text-2xl font-extrabold">
+                      {leader.badge.value}
+                    </p>
+                    <p className="text-xs uppercase tracking-wide">
+                      {leader.badge.label}
+                    </p>
                   </div>
                 </div>
                 <div>
-                  <p className="text-lg text-muted-foreground">{leader.message}</p>
+                  <p className="text-lg text-muted-foreground">
+                    {leader.message}
+                  </p>
                   <div className="mt-8">
-                    <p className="font-display text-xl font-bold text-primary">{leader.name}</p>
-                    <p className="text-sm text-muted-foreground">{leader.role}</p>
+                    <p className="font-display text-xl font-bold text-primary">
+                      {leader.name}
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      {leader.role}
+                    </p>
                   </div>
                 </div>
               </div>
